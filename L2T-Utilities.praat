@@ -293,4 +293,6 @@ procedure remove: .object$
   Remove
 endproc
 
-
+procedure currentTime()
+	.t$ = replace$(date$(), " ", "_", 0)
+endproc
